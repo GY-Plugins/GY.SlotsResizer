@@ -6,6 +6,7 @@ using Rocket.Core;
 using Rocket.Core.Permissions;
 using Rocket.Core.Plugins;
 using Rocket.Unturned;
+using Rocket.Unturned.Events;
 using Rocket.Unturned.Player;
 using SDG.Unturned;
 using UnityEngine;
@@ -24,8 +25,10 @@ namespace GY.SlotsResizer
             Cfg = Configuration.Instance;
             
             U.Events.OnPlayerConnected += EventOnPlayerConnected;
+            UnturnedPlayerEvents.OnPlayerRevive += EventOnPlayerRevive;
         }
 
+        private void EventOnPlayerRevive(UnturnedPlayer player, Vector3 position, byte angle) => StartCoroutine(nameof(ChangeSlots), player);
         private void EventOnPlayerConnected(UnturnedPlayer player) => StartCoroutine(nameof(ChangeSlots), player);
 
         private IEnumerator ChangeSlots(UnturnedPlayer player)
