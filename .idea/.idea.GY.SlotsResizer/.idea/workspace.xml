@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="339d35f2-6ce1-4d84-8bee-923e707846c2" name="Default Changelist" comment="" />
+    <list default="true" id="339d35f2-6ce1-4d84-8bee-923e707846c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GY.SlotsResizer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GY.SlotsResizer/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5A544914-3CB1-457D-B72F-1F273BC817A2/73/53a663ee/Items.cs" root0="SKIP_HIGHLIGHTING" />
@@ -23,6 +28,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1mCHfvdviVwnd10qptynhShG0KB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,18 +44,12 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="selectedOptions">
-        <set />
-      </option>
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="selectedOptions">
-        <set />
-      </option>
       <method v="2" />
     </configuration>
   </component>
@@ -61,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608990759717</updated>
-      <workItem from="1608990772688" duration="3625000" />
+      <workItem from="1608990772688" duration="4472000" />
     </task>
     <servers />
   </component>
@@ -72,5 +72,15 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="826" y="418" key="Github.ShareDialog" timestamp="1608994526909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="826" y="418" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608994526909" />
+    <state x="722" y="225" key="Github.UntrackedFilesDialog" timestamp="1608994572248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="722" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608994572248" />
   </component>
 </project>
